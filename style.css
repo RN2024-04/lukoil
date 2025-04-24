@@ -1,320 +1,263 @@
-* {
+@media (max-width: 600px) {
+    * {
     margin: 0;
     padding: 0;
-}
-@media (max-width: 600px) {
-    .footer-3 {
-        padding: 15px; /* Уменьшение отступов */
-        align-items: center; /* Центрируем элементы */
-        justify-content: center; /* Центрируем содержимое */
     }
 
-    .button-container {
-        justify-content: center; /* Центрируем кнопки */
-    }
 
-    .role-button {
-        width: 100%; /* Кнопки занимают всю ширину */
-        margin-right: 0; /* Убираем отступ между кнопками */
-        margin-bottom: 10px; /* Отступ снизу между кнопками */
+    .main{
+        width: 100%;
+        height: 253px;
+        background-color: #D82C41;
+        text-align: center;
     }
-
+    
+    
+    
+    .text-main{
+        position: relative;
+        top: 1%;
+        display: flex; 
+        align-items: center;
+        margin-left: 500px;
+        color: #ffff;
+        max-width: 200px;
+        text-align: left; 
+        font-size: 24px;
+    /*    text-transform: uppercase;*/
+    }
+    
+    .image {
+        top: 20%;
+        margin-left: 680px;
+    }
+    .text h1{
+        text-transform: uppercase;
+        font-family:'Montserrat Alternates', sans-serif;;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+    
+    .text p{
+        font-family: 'Montserrat Alternates', sans-serif;;
+        margin-left: 50px;
+    }
+    
     .container {
-        padding: 10px; /* Уменьшение отступов */
+        position: relative;
+        top: 35%;
+        max-width: 1500px; /* Максимальная ширина контейнера */
+        margin: 50px auto; /* Центрирование контейнера с отступом сверху */
+        padding: 20px; /* Отступы внутри контейнера */
+        border-radius: 8px; /* Скругление углов */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 2); /* Тень для контейнера */
+        margin-bottom: 100px;
     }
-
-    .greeting {
-        font-size: 14px; /* Уменьшение размера шрифта */
+    
+    .text-main-2 {
+        margin-top: 20px; /* Отступ сверху для блока с текстом */
+        padding: 20px; /* Отступы внутри блока с текстом */
+        background-color: #D82C41; /* Цвет фона текста */
+        border-radius: 8px; /* Скругление углов блока с текстом */
     }
-
-    .main-10 {
-        padding: 100px; /* Уменьшение отступов внутри блока */
-        font-size: 18px; /* Уменьшение размера шрифта */
+    
+    .text-main-2 h1 {
+        font-size: 24px; /* Размер шрифта */
+        font-weight: bold; /* Жирный текст */
+        color:  #ffff; ; /* Цвет текста */
+        line-height: 1.5; /* Междустрочный интервал */
+        text-align: center; /* Выравнивание по центру */
+        font-family:'Bounded Black ',sans-serif;
     }
-}
-
-/* Планшеты (от 601px до 900px) */
-@media (min-width: 601px) and (max-width: 900px) {
+    
+    
+    
+    .container {
+        margin-top: 40px;
+        display: flex;
+    }
+    
+    .card {
+        border-radius: 20px;
+        margin-left: 10px;
+        height: 300px;
+        background-color: #000;
+        flex: 1;
+        transition: .3s all ease;
+        display: flex; /* Включаем Flexbox */
+        align-items: center; /* Вертикальное выравнивание по центру */
+        justify-content: center; /* Горизонтальное выравнивание по центру */
+    }
+    
+    .card:hover {
+    
+        flex: 2;
+        background-color: rgb(207, 207, 207);
+    }
+    
+    
+    .main-2{
+        font-size: 25px;
+        height: 40px;
+        background-color: #000000;
+        color: #ffffff; 
+        align-items: center;
+        text-align: center;
+    
+    }
+    .main-6 {
+    
+        height: 899px;
+        background-color: #ffff;
+        color: #ffffff; /* Белый текст */
+        text-align: center;
+        padding: 20px; /* Отступы внутри блока */
+    }
+    
+    
+    
+    
+    .container-3 {
+        background-color: #3a3d59;
+        height: 800px;
+        width: 1500px;
+        display:flex;
+        justify-content: center;
+        background: var(--#3a3d59);
+        border-radius: 10px; 
+        margin-left: 0px;
+        padding: 1px; /* Отступы внутри контейнера */
+    
+    }
+    
     .footer-3 {
-        padding: 18px; /* Небольшое уменьшение отступов */
+    
+        background-color: #3a3d59; 
+        color: #ffffff; /* Белый текст */
+        padding: 20px;
+        display: flex;
+        flex-direction: column; /* Вертикальное расположение элементов */
+        align-items: flex-start; /* Выравнивание элементов влево */
+    }
+    
+    
+    .im {
+        osition: relative;
+        top: 20px;
+        margin-left:center;;
+    ; /* Центрируем изображение */
+    }
+    
+    .im img {
+        position: relative;
+        top: 70px;
+        margin-left: 70px;
+        height: center; /* Сохраняем пропорции изображения */
+    }
+    
+    .container-3 h1 {
+        font-family:'Bounded Black ',sans-serif;
+    }
+    
+    .container-3 p {
+        font-family:'Arial',sans-serif;
+    }
+    
+    .im-4 img {
+        position: relative;
+        top: 10px;
+        max-width:10000px;; /* Адаптивное изображение */
+        height: center;; /* Сохраняем пропорции изображения */
+    }
+    
+    .main-7 {
+        position: relative;
+        height: 1200px;
+        background-color: #000;
+        text-align: center;
+        padding: 200px; /* Отступы внутри блока */
+    }
+    
+    .vm-section p {
+        margin-left:center;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 15px;
+            }
+    
+    .container-3 {
+        background-color: #3a3d59;
+        height: 800px; /* Можно настроить под ваши требования */
+        width: 1500px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px; 
+        padding: 20px; /* Добавлен отступ для контейнера */
+    }
+    
+    .footer-3 {
+        background-color: #D82C41; 
+        color: #ffffff; /* Белый текст */
+        padding: 20px;
+        display: flex;
+        flex-direction: column; /* Вертикальное расположение элементов */
         align-items: flex-start; /* Выровнять по левому краю */
-        justify-content: flex-start; /* Выровнять по верхнему краю */
+        justify-content: flex-end; /* Выровнять по нижнему краю */
+        height: 100%; /* Занять всю высоту контейнера */
     }
-
+    
+    .vm-section {
+        text-align: left; /* Текст выровнен по левому краю */
+    }
+    
     .button-container {
-        justify-content: center; /* Центрируем кнопки */
+        display: flex;
+        justify-content: flex-start; /* Выровнять кнопки по левому краю */
+        margin-top: 20px; /* Отступ сверху для кнопок */
     }
-
+    
     .role-button {
-        margin-right: 5px; /* Уменьшение отступа между кнопками */
+        background-color: #000; /* Черный цвет кнопок */
+        color: #fff; /* Белый цвет текста на кнопках */
+        border: none;
+        padding: 10px 20px; /* Отступы внутри кнопок */
+        margin-right: 10px; /* Отступы между кнопками */
+        cursor: pointer; /* Курсор при наведении */
+        border-radius: 5px; /* Закругленные углы */
+        font-size: 16px; /* Размер шрифта кнопок */
+        transition: background-color 0.3s; /* Плавный переход цвета фона */
     }
-
+    
+    .role-button:hover {
+        background-color: #e74c3c; /* Красный цвет кнопки при наведении */
+    }
+    
     .container {
-        padding: 15px; /* Уменьшение отступов */
+        font-family:'Arial',sans-serif;
+        max-width: auto;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        text-align: center; 
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-
+    
     .greeting {
-        font-size: 15px; /* Уменьшение размера шрифта */
+        font-size: 16px; /* Уменьшенный размер шрифта */
+        text-align: center; /* Центрируем текст */
+        max-width: 1700px;
     }
-
     .main-10 {
-        padding: 150px; /* Уменьшение отступов внутри блока */
-        font-size: 19px; /* Уменьшение размера шрифта */
+        position: relative;
+        top:150px;
+        text-align: left; 
+        font-family:'Arial',sans-serif;
+        position: relative;
+        color: #ffff;
+        padding: 200px; /* Отступы внутри блока */
+        font-size: 20px;
     }
-}
-
-.main{
-    width: 100%;
-    height: 253px;
-    background-color: #D82C41;
-    text-align: center;
-}
-
-
-
-.text-main{
-    position: relative;
-    top: 1%;
-    display: flex; 
-    align-items: center;
-    margin-left: 500px;
-    color: #ffff;
-    max-width: 200px;
-    text-align: left; 
-    font-size: 24px;
-/*    text-transform: uppercase;*/
-}
-
-.image {
-    top: 20%;
-    margin-left: 680px;
-}
-.text h1{
-    text-transform: uppercase;
-    font-family:'Montserrat Alternates', sans-serif;;
-    font-weight: bold;
-    margin-left: 50px;
-}
-
-.text p{
-    font-family: 'Montserrat Alternates', sans-serif;;
-    margin-left: 50px;
-}
-
-.container {
-    position: relative;
-    top: 35%;
-    max-width: 1500px; /* Максимальная ширина контейнера */
-    margin: 50px auto; /* Центрирование контейнера с отступом сверху */
-    padding: 20px; /* Отступы внутри контейнера */
-    border-radius: 8px; /* Скругление углов */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 2); /* Тень для контейнера */
-    margin-bottom: 100px;
-}
-
-.text-main-2 {
-    margin-top: 20px; /* Отступ сверху для блока с текстом */
-    padding: 20px; /* Отступы внутри блока с текстом */
-    background-color: #D82C41; /* Цвет фона текста */
-    border-radius: 8px; /* Скругление углов блока с текстом */
-}
-
-.text-main-2 h1 {
-    font-size: 24px; /* Размер шрифта */
-    font-weight: bold; /* Жирный текст */
-    color:  #ffff; ; /* Цвет текста */
-    line-height: 1.5; /* Междустрочный интервал */
-    text-align: center; /* Выравнивание по центру */
-    font-family:'Bounded Black ',sans-serif;
-}
-
-
-
-.container {
-    margin-top: 40px;
-    display: flex;
-}
-
-.card {
-    border-radius: 20px;
-    margin-left: 10px;
-    height: 300px;
-    background-color: #000;
-    flex: 1;
-    transition: .3s all ease;
-    display: flex; /* Включаем Flexbox */
-    align-items: center; /* Вертикальное выравнивание по центру */
-    justify-content: center; /* Горизонтальное выравнивание по центру */
-}
-
-.card:hover {
-
-    flex: 2;
-    background-color: rgb(207, 207, 207);
-}
-
-
-.main-2{
-    font-size: 25px;
-    height: 40px;
-    background-color: #000000;
-    color: #ffffff; 
-    align-items: center;
-    text-align: center;
-
-}
-.main-6 {
-
-    height: 899px;
-    background-color: #ffff;
-    color: #ffffff; /* Белый текст */
-    text-align: center;
-    padding: 20px; /* Отступы внутри блока */
-}
-
-
-
-
-.container-3 {
-    background-color: #3a3d59;
-    height: 800px;
-    width: 1500px;
-    display:flex;
-    justify-content: center;
-    background: var(--#3a3d59);
-    border-radius: 10px; 
-    margin-left: 0px;
-    padding: 1px; /* Отступы внутри контейнера */
-
-}
-
-.footer-3 {
-
-    background-color: #3a3d59; 
-    color: #ffffff; /* Белый текст */
-    padding: 20px;
-    display: flex;
-    flex-direction: column; /* Вертикальное расположение элементов */
-    align-items: flex-start; /* Выравнивание элементов влево */
-}
-
-
-.im {
-    osition: relative;
-    top: 20px;
-    margin-left:center;;
-; /* Центрируем изображение */
-}
-
-.im img {
-    position: relative;
-    top: 70px;
-    margin-left: 70px;
-    height: center; /* Сохраняем пропорции изображения */
-}
-
-.container-3 h1 {
-    font-family:'Bounded Black ',sans-serif;
-}
-
-.container-3 p {
-    font-family:'Arial',sans-serif;
-}
-
-.im-4 img {
-    position: relative;
-    top: 10px;
-    max-width:10000px;; /* Адаптивное изображение */
-    height: center;; /* Сохраняем пропорции изображения */
-}
-
-.main-7 {
-    position: relative;
-    height: 1200px;
-    background-color: #000;
-    text-align: center;
-    padding: 200px; /* Отступы внутри блока */
-}
-
-.vm-section p {
-    margin-left:center;
-    position: relative;
-    top: 0px;
-    font-size: 10px;
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 15px;
-        }
-
-.container-3 {
-    background-color: #3a3d59;
-    height: 800px; /* Можно настроить под ваши требования */
-    width: 1500px;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px; 
-    padding: 20px; /* Добавлен отступ для контейнера */
-}
-
-.footer-3 {
-    background-color: #D82C41; 
-    color: #ffffff; /* Белый текст */
-    padding: 20px;
-    display: flex;
-    flex-direction: column; /* Вертикальное расположение элементов */
-    align-items: flex-start; /* Выровнять по левому краю */
-    justify-content: flex-end; /* Выровнять по нижнему краю */
-    height: 100%; /* Занять всю высоту контейнера */
-}
-
-.vm-section {
-    text-align: left; /* Текст выровнен по левому краю */
-}
-
-.button-container {
-    display: flex;
-    justify-content: flex-start; /* Выровнять кнопки по левому краю */
-    margin-top: 20px; /* Отступ сверху для кнопок */
-}
-
-.role-button {
-    background-color: #000; /* Черный цвет кнопок */
-    color: #fff; /* Белый цвет текста на кнопках */
-    border: none;
-    padding: 10px 20px; /* Отступы внутри кнопок */
-    margin-right: 10px; /* Отступы между кнопками */
-    cursor: pointer; /* Курсор при наведении */
-    border-radius: 5px; /* Закругленные углы */
-    font-size: 16px; /* Размер шрифта кнопок */
-    transition: background-color 0.3s; /* Плавный переход цвета фона */
-}
-
-.role-button:hover {
-    background-color: #e74c3c; /* Красный цвет кнопки при наведении */
-}
-
-.container {
-    font-family:'Arial',sans-serif;
-    max-width: auto;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    text-align: center; 
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.greeting {
-    font-size: 16px; /* Уменьшенный размер шрифта */
-    text-align: center; /* Центрируем текст */
-    max-width: 1700px;
-}
-.main-10 {
-    position: relative;
-    top:150px;
-    text-align: left; 
-    font-family:'Arial',sans-serif;
-    position: relative;
-    color: #ffff;
-    padding: 200px; /* Отступы внутри блока */
-    font-size: 20px;
 }
